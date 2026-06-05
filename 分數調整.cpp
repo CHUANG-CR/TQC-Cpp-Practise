@@ -2,22 +2,21 @@
 
 using namespace std;
 
-// 宣告並定義 compute 函式
-int compute(int score) {
-    if (score < 0 || score > 100) {
-        return -1;
-    } else if (score >= 60) {
-        return score + 5;
-    } else {
-        return score + 10;
-    }
-}
-
 int main() {
     int score;
     if (cin >> score) {
-        // 呼叫 compute 函式並輸出回傳值
-        cout << compute(score) << endl;
+        // 判斷是否在 0~100 的合理範圍內
+        if (score < 0 || score > 100) {
+            cout << "error" << endl;
+        } else {
+            // 依據分數區間進行加分
+            if (score > 60) {
+                score += 10;
+            } else {
+                score += 5;
+            }
+            cout << score << endl;
+        }
     }
     return 0;
 }
