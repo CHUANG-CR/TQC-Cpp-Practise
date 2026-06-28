@@ -3,6 +3,8 @@
 using namespace std;
 
 int main() {
+	cout << "<-----分數調整工具----->" << endl;
+	cout << "請輸入分數" << endl;
     int score;
     if (cin >> score) {
         // 判斷是否在 0~100 的合理範圍內

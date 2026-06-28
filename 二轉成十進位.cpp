@@ -4,6 +4,8 @@
 using namespace std;
 
 int main() {
+	cout << "<-----二進制轉十進制小工具----->" << endl;
+	cout << "請輸入二進位碼:" << endl;
     string binStr;
     if (cin >> binStr) {
         int decValue = 0;

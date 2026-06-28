@@ -4,6 +4,9 @@
 using namespace std;
 
 int main() {
+	cout <<　"<-----果汁計價小工具----->"<< endl;
+	cout << "果汁價錢為23.34元"<<endl;
+	cout <<　"請輸入果汁數量" << endl;
     int n;
     // 讀取果汁數量
     if (cin >> n) {
