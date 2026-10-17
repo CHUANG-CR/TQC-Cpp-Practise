@@ -1,2 +1,2 @@
-# TQC-Cpp-Practise
-Prepare TQC C++ test
+# TQC+ 程式語言C++ 第2版
+
